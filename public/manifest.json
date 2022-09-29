@@ -1,0 +1,30 @@
+{
+  "name": "Zevi",
+  "short_name": "Zevi",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "favicon/zevi_logo.jpeg",
+      "type": "image/jpeg",
+      "sizes": "48x48"
+    },
+    {
+      "src": "favicon/zevi_logo.jpeg",
+      "type": "image/jpeg",
+      "sizes": "96x96"
+    },
+    {
+      "src": "favicon/zevi_logo.jpeg",
+      "type": "image/jpeg",
+      "sizes": "144x144"
+    },
+    {
+      "src": "favicon/zevi_logo.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    }
+  ]
+}
