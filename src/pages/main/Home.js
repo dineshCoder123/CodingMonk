@@ -1,5 +1,5 @@
 import React from 'react'
-import {HomeHero,Transform,Track} from './../../sections/main/Home'
+import {HomeHero,Transform,Track, Doubt} from './../../sections/main/Home'
 function Home() {
   return (
     <>
