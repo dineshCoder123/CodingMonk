@@ -1,6 +1,7 @@
 import { Box, Container, Grid, Stack, Typography } from "@mui/material";
 import Group3 from "../../../assets/images/group3.svg";
 import Discount from "../../../assets/images/Discount.svg";
+import circledPlay from "../../../assets/images/circledPlay.svg";
 
 
 import React from "react";

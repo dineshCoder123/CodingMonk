@@ -1,12 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Doubt() {
-    <>
-      return (
-
-)
-    </>
-
+  return <></>;
 }
 
-export default Doubt
+export default Doubt;
