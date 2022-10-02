@@ -1,5 +1,5 @@
 import React from 'react'
-import {HomeHero,Transform,Track, Doubt} from './../../sections/main/Home'
+import {HomeHero,Transform,Track, Doubt,Free} from './../../sections/main/Home'
 function Home() {
   return (
     <>
@@ -8,6 +8,7 @@ function Home() {
     <Transform/>
      <Track/>
      <Doubt/>
+     <Free/>
     </>
    
   
