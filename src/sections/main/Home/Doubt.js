@@ -1,10 +1,10 @@
 import { Box,Container,Grid,Stack,Typography } from "@mui/material";
 import React from "react";
-
 import QuestionMark from "../../../assets/images/Question.svg";
+import useResponsive from "../../../hooks/useResponsive";
 function Doubt() {
+  const isDesktop=useResponsive("up","md");
   return(
-
     <>
     <Box p={2.5}>
       <Box sx={{
@@ -22,11 +22,11 @@ function Doubt() {
         <Stack height={"100%"} width={"100%"} alignItems="center" justifyContent={"center"}>
           
         <Stack   >
-      <Typography variant="h3" color="#5544C0" py={1}>
+      <Typography variant="h3" color="#5544C0" py={1} sx={{textAlign:{xs:"center", md:"start"}}}>
       Doubt support available <br></br>
       in all tracks
       </Typography>
-       <Typography variant="body1" color="#000000">
+       <Typography variant="body1" color="#000000" sx={{textAlign:{xs:"center", md:"start"},px:{xs:2,md:0}}}>
         Our support assistants are always there to 
         unstuck your progress
         </Typography>

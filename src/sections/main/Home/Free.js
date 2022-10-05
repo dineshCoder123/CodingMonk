@@ -5,8 +5,9 @@ import React from "react";
 // import Button from 'src/theme/overrides/Button'
 import TrendingFlatRoundedIcon from "@mui/icons-material/TrendingFlatRounded";
 // import Typography from 'src/theme/overrides/Typography'
-
+import useResponsive from "../../../hooks/useResponsive";
 function Free() {
+  const isDesktop=useResponsive("up","md");
   return (
     <>
       <Box p={2.5}>
@@ -29,7 +30,7 @@ function Free() {
           <Grid container spacing={3}>
             <Grid item xs={12} md={6} height="100%">
               <Stack height={"100%"} width={"100%"} alignItems="start" justifyContent={"center"}  >
-              <Typography variant="h3"  color="#FFFFFF">
+              <Typography variant="h3"   color="#FFFFFF" sx={{textAlign:{xs:"center",md:"start"},width:"100%"}} >
                 Still on fence, Thinking <br />
                 hard ?
               </Typography>
@@ -47,11 +48,14 @@ function Free() {
                   >
                     Try 14 days for free
                   </Button>
-                  <Typography variant="subtitle1" py={1} color="#FFFFFF">
+                  
+                     
+                    <Typography variant={isDesktop?"subtitle1":"caption"} py={1} color="#FFFFFF" sx={{textAlign:{xs:"center",md:"start"}}}>
                     {/* import TrendingFlatRoundedIcon from '@mui/icons-material/TrendingFlatRounded'; */}
                     No payment method required, Just signup <br />& start
                     learning today
                   </Typography>
+                  
                 </Stack>
               </Stack>
             </Grid>
