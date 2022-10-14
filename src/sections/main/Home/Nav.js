@@ -3,12 +3,8 @@ import React from 'react'
 import useResponsive from "../../../hooks/useResponsive";
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 // import Typography from 'src/theme/overrides/Typography';
-
-
-
 function Nav() {
        const isDesktop=useResponsive("up","md");
-
   return (
     <>
             <Grid container spacing={2} px={3} pt={2} direction="row" alignItems={"center"} >
@@ -43,12 +39,7 @@ function Nav() {
                     </Stack>
             </Grid>
             </Grid>
-           
-
-         
-   
-    </>
-  
+    </>  
   )
 }
 

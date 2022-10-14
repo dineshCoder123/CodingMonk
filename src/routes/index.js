@@ -37,7 +37,7 @@ export default function Router() {
 // IMPORT COMPONENTS
 
 // Main
-const HomePage = Loadable(lazy(() => import('../pages/main/Home')));
+const HomePage = Loadable(lazy(() => import('../pages/main/RapidoHome')));
 const Problem1 = Loadable(lazy(() => import('../pages/Problem1')));
 const Problem2 = Loadable(lazy(() => import('../pages/Problem2')));
 

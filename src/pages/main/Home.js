@@ -3,23 +3,13 @@ import {HomeHero,Transform,Track, Doubt,Free,Nav} from './../../sections/main/Ho
 function Home() {
   return (
     <>
-     {/* <div>home</div> */}
      <Nav/>
     <HomeHero/>
     <Transform/>
      <Track/>
      <Doubt/>
      <Free/>
- 
     </>
-   
-  
-    //hero section
-    //transform section
-    //track section
-    //doubt section
-    //free trial
-
   )
 }
 

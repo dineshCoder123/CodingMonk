@@ -1,15 +1,14 @@
 import { Box,Container,Grid,Stack,Typography } from "@mui/material";
 import React from "react";
 import QuestionMark from "../../../assets/images/Question.svg";
-import useResponsive from "../../../hooks/useResponsive";
+
 function Doubt() {
-  const isDesktop=useResponsive("up","md");
   return(
     <>
     <Box p={2.5}>
       <Box sx={{
            width: "100%",
-           background: "radial-gradient(100% 488.09% at 0% 0%, rgba(241, 211, 166, 0.78) 0%, rgba(241, 211, 166, 0) 100%) ",
+           background: "radial-gradient(100% 488.09% at 0% 0%, rgba(241, 211, 166, 0.78) 0%, rgba(241, 211, 166, 0) 100%)",
         // backgroundColor:"red",
            borderRadius: "20px",
 

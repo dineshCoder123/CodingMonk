@@ -25,6 +25,7 @@ const list = [
 
 function Transform() {
   return (
+  
     <Box p={2.5}>
       <Box
         sx={{
@@ -87,7 +88,9 @@ function Transform() {
       </Container>
       </Box>
     </Box>
+    
   );
+
 }
 
 export default Transform;
