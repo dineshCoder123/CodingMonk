@@ -1,9 +1,12 @@
 import React from 'react'
-import {Nav} from "../../sections/main/RapidoHome"
+import {Nav,SearchBar} from "../../sections/main/RapidoHome"
 function RapidoHome() {
   return (
 <>
  <Nav></Nav>
+ <SearchBar>
+  
+ </SearchBar>
 </>
   )
 }

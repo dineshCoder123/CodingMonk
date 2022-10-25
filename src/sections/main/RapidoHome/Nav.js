@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography, Stack, Container, Button, Box } from "@mui/material";
+import HeroImg from '../../../assets/images/Hero.svg';
 import { User } from "phosphor-react";
 // import Typography from 'src/theme/overrides/Typography'
 
