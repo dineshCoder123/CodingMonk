@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav,SearchBar} from "../../sections/main/RapidoHome"
+import {Nav,SearchBar,Hero} from "../../sections/main/RapidoHome"
 function RapidoHome() {
   return (
 <>
@@ -7,6 +7,8 @@ function RapidoHome() {
  <SearchBar>
   
  </SearchBar>
+ <Hero>
+ </Hero>
 </>
   )
 }
